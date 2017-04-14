@@ -52,9 +52,12 @@ module purge                               # Removes all modules still loaded
 module load default-wilkes                 # REQUIRED - loads the basic environment
 
 #! Insert additional module load commands after this line if needed:
-# Using Spack
-. /scratch/cb-geo/spack/share/spack/setup-env.sh
-spack load lem+cuda
+module use /scratch/cb-geo/modulefiles
+module add intel/mkl/11.3.3.210
+module add cuda/8.0
+module add vtk/wilkes
+module add eigen
+module add voro++
 
 #! Full path to application executable: 
 application="lem"
