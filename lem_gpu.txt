@@ -64,7 +64,7 @@ module add voro++
 application="lem"
 
 #! Run options for the application:
-options="-d /scratch/cb-geo/lem/benchmarks/fracture_200/ -s CG_GPU"
+options="-d 3 -f /scratch/cb-geo/lem/benchmarks/fracture_200/ -s CG_GPU"
 
 
 #! Work directory (i.e. where the job will run):

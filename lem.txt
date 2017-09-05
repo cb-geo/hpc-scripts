@@ -61,7 +61,7 @@ spack load lem-develop
 application="lem"
 
 #! Run options for the application:
-options="-d /scratch/cb-geo/lem/benchmarks/fracture_200/ -s CG_MKL"
+options="-d 3 -f /scratch/cb-geo/lem/benchmarks/fracture_200/ -s CG_MKL"
 
 #! Work directory (i.e. where the job will run):
 workdir="$SLURM_SUBMIT_DIR"  # The value of SLURM_SUBMIT_DIR sets workdir to the directory
