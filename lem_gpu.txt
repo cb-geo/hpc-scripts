@@ -52,11 +52,12 @@ module purge                               # Removes all modules still loaded
 module load default-wilkes                 # REQUIRED - loads the basic environment
 
 #! Insert additional module load commands after this line if needed:
+module load cmake/3.4.3
 module load gcc/5.3.0
 module use /scratch/cb-geo/modulefiles
 module add intel/mkl/11.3.3.210
 module add cuda/8.0
-module add vtk/wilkes
+module add vtk/7.1.1
 module add eigen
 module add voro++
 
